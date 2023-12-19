@@ -4,6 +4,12 @@ const baseDatos = [
     genero: "",
     edad: 0,
     barrio: "",
+    foto: [
+        {
+            opcion: '',
+            foto: ''
+        }
+    ],
     hobbies: [],
     color: [],
     camidaFavorita: [],
