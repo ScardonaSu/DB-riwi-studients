@@ -1,17 +1,22 @@
-const busqueda = [
-
-    {
-        nombre: '',
-        genero: '',
-        edad: 0,
-        gustoMusical: '',
-        hobbies: '',
-        favoriteFood: '',
-        color: '',
-        barrio: '',
-        mascotas: '',
-        favoriteMovie: '',
-        gustosPersonales: ''
-    }
-
-]
+const baseDatos = [
+  {
+    nombre: "",
+    genero: "",
+    edad: 0,
+    barrio: "",
+    hobbies: [],
+    color: [],
+    camidaFavorita: [],
+    gustoMusical: [],
+    cancionFavorita: [
+      {
+        cuales: "",
+        descripcion: "",
+      },
+    ],
+    mascotas: [],
+    peliculaFavorita: [],
+    serieFavorita: [],
+    gustosPersonales: [],
+  },
+];
