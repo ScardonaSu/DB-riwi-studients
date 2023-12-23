@@ -1,16 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap 5</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="js/script.js"></script>
-</head>
-<body>
-    <h1>Hola santo</h1>
-    <button class="btn btn-primary">Empezar</button>
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-</body>
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Filter And Search</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="search-container">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Buscar el nombre del estudiante...."
+        />
+        <button id="search">Search</button>
+      </div>
+      <div id="buttons">
+        <button class="button-value" onclick="filterProduct('all')">All</button>
+        <button class="button-value" onclick="filterProduct('Gender')">
+          Genero
+        </button>
+        <button class="button-value" onclick="filterProduct('Age')">
+          Edad
+        </button>
+        <button class="button-value" onclick="filterProduct('Hobbies')">
+          Hobbies
+        </button>
+        <button class="button-value" onclick="filterProduct('Food')">
+          Comida Favorita
+        </button>
+        <button class="button-value" onclick="filterProduct('Music')">
+          Genero Musical
+        </button>
+        <button class="button-value" onclick="filterProduct('Favorite-song')">
+          Cancion Favorita
+        </button>
+        <button class="button-value" onclick="filterProduct('Pets')">
+          Mascotas
+        </button>
+        <button class="button-value" onclick="filterProduct('Movie')">
+          Pelicula Favorita
+        </button>
+      </div>
+      <div id="products"></div>
+    </div>
+    <!-- Script -->
+    <script src="js/script.js"></script>
+  </body>
 </html>

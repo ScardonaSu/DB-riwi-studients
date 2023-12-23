@@ -1,15 +1,9 @@
 const baseDatos = [
-
   {
     nombre: "Manuela",
     genero: "Femenino",
-    edad: "1",
-    foto: [
-      {
-        opcion: "No",
-        foto: "",
-      },
-    ],
+    edad: "16",
+    foto: [],
     hobbies: ["Escribir"],
     color: ["Azul"],
     camidaFavorita: ["Mexicana"],
@@ -21,13 +15,14 @@ const baseDatos = [
       },
     ],
     mascotas: ["Rufi", "Lola", "Juana"],
+    image: "https://cdn-icons-png.flaticon.com/512/4140/4140047.png",
     peliculaFavorita: ["Beetle Juice"],
   },
 
   {
-    nombre: "Daniel",
+    nombre: "Daniel Hurtado",
     genero: "Masculino",
-    edad: "1",
+    edad: "18",
     foto: [
       {
         opcion: "No",
@@ -40,6 +35,8 @@ const baseDatos = [
     gustoMusical: ["Metal"],
     cancionFavorita: "Chop Suey",
     mascotas: ["Perro"],
+    image:
+      "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
       {
         nombrePelicula: "Van Helsing",
@@ -51,7 +48,7 @@ const baseDatos = [
   {
     nombre: "Juan Pablo Alvarez",
     genero: "Masculino",
-    edad: "2",
+    edad: "26",
     foto: [
       {
         opcion: "No",
@@ -64,6 +61,8 @@ const baseDatos = [
     gustoMusical: ["Techno"],
     cancionFavorita: ["Some one like you"],
     mascotas: ["Gatos"],
+    image:
+      "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
       {
         nombre: "Game of Ender",
@@ -75,7 +74,7 @@ const baseDatos = [
   {
     nombre: "Duvan Morales",
     genero: "Masculino",
-    edad: "1",
+    edad: "18",
     foto: [
       {
         opcion: "No",
@@ -88,6 +87,8 @@ const baseDatos = [
     gustoMusical: ["Trap", "Rap", "Reggeton", "Crossover"],
     cancionFavorita: ["Tuyo de mora"],
     mascotas: ["Pez"],
+    image:
+      "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
       {
         nombrePelicula: "Avengers",
@@ -97,9 +98,9 @@ const baseDatos = [
   },
 
   {
-    nombre: "Richar",
+    nombre: "Richard",
     genero: "Masculino",
-    edad: "3",
+    edad: "34",
     foto: [
       {
         opcion: "Si",
@@ -112,6 +113,8 @@ const baseDatos = [
     gustoMusical: ["Rock", "Metal"],
     cancionFavorita: ["Trooperl Airoman"],
     mascotas: ["Perro"],
+    image:
+      "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
       {
         nombrePelicula: "La emboscada",
@@ -123,7 +126,7 @@ const baseDatos = [
   {
     nombre: "David Rico",
     genero: "Masculino",
-    edad: "1",
+    edad: "18",
     foto: [
       {
         opcion: "Si",
@@ -136,6 +139,8 @@ const baseDatos = [
     gustoMusical: ["Rock", "Pop", "Regge", "Hip Hop"],
     cancionFavorita: ["Love is a butterfly"],
     mascotas: ["Gato"],
+    image:
+      "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
       {
         nombrePelicula: "Virnes 13",
@@ -147,7 +152,7 @@ const baseDatos = [
   {
     nombre: "Angeli",
     genero: "Femenino",
-    edad: "1",
+    edad: "19",
     foto: [
       {
         opcion: "Si",
@@ -160,6 +165,7 @@ const baseDatos = [
     gustoMusical: ["Salsa", "Rap"],
     cancionFavorita: ["Sol de Wiliam"],
     mascotas: ["No le gustan"],
+    image: "https://cdn-icons-png.flaticon.com/512/4140/4140047.png",
     peliculaFavorita: [
       {
         nombrePelicula: "No tiene",
@@ -171,7 +177,7 @@ const baseDatos = [
   {
     nombre: "Henry Fiol",
     genero: "Masculino",
-    edad: "3",
+    edad: "35",
     foto: [
       {
         opcion: "Si",
@@ -184,6 +190,8 @@ const baseDatos = [
     gustoMusical: ["Salsa"],
     cancionFavorita: ["Asi eres tu mi vida"],
     mascotas: ["No"],
+    image:
+      "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
       {
         nombrePelicula: "Jumper",
@@ -195,7 +203,7 @@ const baseDatos = [
   {
     nombre: "Daniel Montiel",
     genero: "Masculino",
-    edad: "1",
+    edad: "18",
     foto: [
       {
         opcion: "No",
@@ -208,6 +216,8 @@ const baseDatos = [
     gustoMusical: ["Pop"],
     cancionFavorita: ["Billie Jean"],
     mascotas: ["Perro"],
+    image:
+      "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
       {
         nombrePelicula: "Masacre en texas",
@@ -219,7 +229,7 @@ const baseDatos = [
   {
     nombre: "vladimir Alejandro",
     genero: "Masculino",
-    edad: "3",
+    edad: "39",
     foto: [
       {
         opcion: "NO",
@@ -232,6 +242,8 @@ const baseDatos = [
     gustoMusical: ["Rock", "Salsa"],
     cancionFavorita: ["Rooster de alice in chains"],
     mascotas: ["Gatos"],
+    image:
+      "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
       {
         nombrePelicula: "Sueño de fuga",
@@ -243,7 +255,7 @@ const baseDatos = [
   {
     nombre: "Jose Manuel",
     genero: "Masculino",
-    edad: "1",
+    edad: "18",
     foto: [
       {
         opcion: "Si",
@@ -256,6 +268,8 @@ const baseDatos = [
     gustoMusical: ["Metalica"],
     cancionFavorita: ["Drain You"],
     mascotas: ["Perro"],
+    image:
+      "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
       {
         nombrePelicula: "Sangre, sudor y gloria",
@@ -267,7 +281,7 @@ const baseDatos = [
   {
     nombre: "Laura Velasquez",
     genero: "Femenino",
-    edad: "1",
+    edad: "18",
     foto: [
       {
         opcion: "No",
@@ -280,6 +294,7 @@ const baseDatos = [
     gustoMusical: ["Rock alternativo"],
     cancionFavorita: ["Love lost"],
     mascotas: ["No"],
+    image: "https://cdn-icons-png.flaticon.com/512/4140/4140047.png",
     peliculaFavorita: [
       {
         nombrePelicula: "Interestelar",
@@ -291,7 +306,7 @@ const baseDatos = [
   {
     nombre: "Juan Diego",
     genero: "Masculino",
-    edad: "2",
+    edad: "23",
     foto: [
       {
         opcion: "No",
@@ -304,6 +319,8 @@ const baseDatos = [
     gustoMusical: ["Salsa"],
     cancionFavorita: ["Cuenta regresiva"],
     mascotas: ["Perro"],
+    image:
+      "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
       {
         nombrePelicula: "Intocable",
@@ -315,7 +332,7 @@ const baseDatos = [
   {
     nombre: "Mariana",
     genero: "Femenino",
-    edad: "1",
+    edad: "18",
     foto: [
       {
         opcion: "No",
@@ -328,6 +345,7 @@ const baseDatos = [
     gustoMusical: ["Rock"],
     cancionFavorita: ["Still of the nigth"],
     mascotas: ["Perro"],
+    image: "https://cdn-icons-png.flaticon.com/512/4140/4140047.png",
     peliculaFavorita: [
       {
         nombrePelicula: "Forrest Gump",
@@ -337,9 +355,9 @@ const baseDatos = [
   },
 
   {
-    nombre: "juan david usuga",
+    nombre: "Juan david usuga",
     genero: "Masculino",
-    edad: "2",
+    edad: "21",
     foto: [
       {
         opcion: "no",
@@ -352,6 +370,8 @@ const baseDatos = [
     gustoMusical: ["pop"],
     cancionFavorita: ["human"],
     mascotas: ["perros, gatos, conejos"],
+    image:
+      "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
       {
         nombrePelicula: "End game",
@@ -362,9 +382,9 @@ const baseDatos = [
   },
 
   {
-    nombre: "duvian lopez",
+    nombre: "Duvian lopez",
     genero: "Masculino",
-    edad: "3",
+    edad: "32",
     foto: [
       {
         opcion: "no",
@@ -377,6 +397,8 @@ const baseDatos = [
     gustoMusical: ["Rock alternativo"],
     cancionFavorita: ["dear agoni"],
     mascotas: ["no"],
+    image:
+      "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
       {
         nombrePelicula: "Señor de los anillos, el retorno del rey",
@@ -386,9 +408,9 @@ const baseDatos = [
   },
 
   {
-    nombre: "alejandro ruiz",
+    nombre: "Alejandro ruiz",
     genero: "Masculino",
-    edad: "1",
+    edad: "22",
     foto: [
       {
         opcion: "no",
@@ -401,6 +423,8 @@ const baseDatos = [
     gustoMusical: ["Salsa y Rock"],
     cancionFavorita: ["Do i wanna know"],
     mascotas: ["perro"],
+    image:
+      "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
       {
         nombrePelicula: "Interestellar",
@@ -412,7 +436,7 @@ const baseDatos = [
   {
     nombre: "David Monterrosa",
     genero: "Masculino",
-    edad: "2",
+    edad: "21",
     foto: [
       {
         opcion: "no",
@@ -425,6 +449,8 @@ const baseDatos = [
     gustoMusical: ["Rap"],
     cancionFavorita: ["Gosebumps"],
     mascotas: ["Gato"],
+    image:
+      "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
       {
         nombrePelicula: "No tiene",
@@ -436,7 +462,7 @@ const baseDatos = [
   {
     nombre: "Victor Marin",
     genero: "Masculino",
-    edad: "3",
+    edad: "30",
     foto: [
       {
         opcion: "No",
@@ -449,6 +475,8 @@ const baseDatos = [
     gustoMusical: ["Reggeton"],
     cancionFavorita: ["Somos de calle"],
     mascotas: ["No"],
+    image:
+      "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
       {
         nombrePelicula: "Interestelar",
@@ -459,7 +487,7 @@ const baseDatos = [
   {
     nombre: "Andres Patiño",
     genero: "Masculino",
-    edad: "2",
+    edad: "22",
     foto: [
       {
         opcion: "No",
@@ -472,6 +500,8 @@ const baseDatos = [
     gustoMusical: ["Rock"],
     cancionFavorita: ["Ya lo vea venir"],
     mascotas: ["Perro", "Pez", "Hamster"],
+    image:
+      "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
       {
         nombrePelicula: "El castillo del vagabundo",
@@ -483,7 +513,7 @@ const baseDatos = [
   {
     nombre: "Jhoan Rios",
     genero: "Masculino",
-    edad: "1",
+    edad: "18",
     foto: [
       {
         opcion: "No",
@@ -496,6 +526,8 @@ const baseDatos = [
     gustoMusical: ["Trap"],
     cancionFavorita: ["Sould out dates"],
     mascotas: ["Gato"],
+    image:
+      "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
       {
         nombrePelicula: "Ted",
@@ -507,7 +539,7 @@ const baseDatos = [
   {
     nombre: "Juan Felipe Gutierrez",
     genero: "Masculino",
-    edad: "2",
+    edad: "28",
     foto: [
       {
         opcion: "No",
@@ -520,6 +552,8 @@ const baseDatos = [
     gustoMusical: ["Rap"],
     cancionFavorita: ["Aveces"],
     mascotas: ["Perro"],
+    image:
+      "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
       {
         nombrePelicula: "Shrek",
@@ -531,7 +565,7 @@ const baseDatos = [
   {
     nombre: "Santiago Tobon",
     genero: "Masculino",
-    edad: "2",
+    edad: "23",
     foto: [
       {
         opcion: "no",
@@ -544,6 +578,8 @@ const baseDatos = [
     gustoMusical: ["Rock", "Rap", "Punk"],
     cancionFavorita: ["Rapp Snitch Knisshes"],
     mascotas: ["Perro"],
+    image:
+      "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
       {
         nombrePelicula: "Scott vs the World",
@@ -555,7 +591,7 @@ const baseDatos = [
   {
     nombre: "Dina Luz Martinez",
     genero: "Femenino",
-    edad: "2",
+    edad: "22",
     foto: [
       {
         opcion: "No",
@@ -568,6 +604,7 @@ const baseDatos = [
     gustoMusical: ["Pop"],
     cancionFavorita: ["Dance for my"],
     mascotas: ["No tiene"],
+    image: "https://cdn-icons-png.flaticon.com/512/4140/4140047.png",
     peliculaFavorita: [
       {
         nombrePelicula: "Infinite Ward",
@@ -580,7 +617,7 @@ const baseDatos = [
   {
     nombre: "Juan Pablo Giraldo",
     genero: "Masculino",
-    edad: "3",
+    edad: "36",
     foto: [
       {
         opcion: "No",
@@ -593,6 +630,8 @@ const baseDatos = [
     gustoMusical: ["Rock"],
     cancionFavorita: ["Nothing else matters"],
     mascotas: ["Gato"],
+    image:
+      "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
       {
         nombrePelicula: "Dead Pool",
@@ -617,6 +656,8 @@ const baseDatos = [
     gustoMusical: ["Vallenato"],
     cancionFavorita: ["Cama y mesa"],
     mascotas: ["No"],
+    image:
+      "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
       {
         nombrePelicula: "Hitch",
@@ -641,6 +682,8 @@ const baseDatos = [
     gustoMusical: ["Rock", "Electronica"],
     cancionFavorita: ["Fire storn"],
     mascotas: ["No"],
+    image:
+      "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
       {
         nombrePelicula: "Lucy",
@@ -650,7 +693,7 @@ const baseDatos = [
   },
 
   {
-    nombre: "Valenia Mesa",
+    nombre: "Valentina Mesa",
     genero: "Femenino",
     edad: "29",
     foto: [
@@ -665,6 +708,7 @@ const baseDatos = [
     gustoMusical: ["Pop"],
     cancionFavorita: ["Cuando la vi"],
     mascotas: ["Perros y gatos"],
+    image: "https://cdn-icons-png.flaticon.com/512/4140/4140047.png",
     peliculaFavorita: [
       {
         nombrePelicula: "Tres metros sobre el cielo",
@@ -689,6 +733,8 @@ const baseDatos = [
     gustoMusical: ["Salsa", "Rock"],
     cancionFavorita: ["One Mettalica"],
     mascotas: ["No"],
+    image:
+      "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
       {
         nombrePelicula: "Saw",
@@ -698,7 +744,7 @@ const baseDatos = [
   },
 
   {
-    nombre: "Sebastina Ramirez",
+    nombre: "Sebastian Ramirez",
     genero: "Masculino",
     edad: "16",
     foto: [
@@ -707,12 +753,14 @@ const baseDatos = [
         foto: "No",
       },
     ],
-    hobbies: ['Jugar Baloncesto', 'Programar'],
-    color: ['Rojo'],
-    camidaFavorita: ['Pizza'],
-    gustoMusical: ['Rock'],
-    cancionFavorita: ['Lamento Boliviano'],
-    mascotas: ['No'],
+    hobbies: ["Jugar Baloncesto", "Programar"],
+    color: ["Rojo"],
+    camidaFavorita: ["Pizza"],
+    gustoMusical: ["Rock"],
+    cancionFavorita: ["Lamento Boliviano"],
+    mascotas: ["No"],
+    image:
+      "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
     peliculaFavorita: [
       {
         nombrePelicula: "No",
@@ -722,33 +770,149 @@ const baseDatos = [
   },
 ];
 
+/* Datos del estudiante  */
+/* 
+let inputEdad1 = document.querySelector("#edad1");
+let inputEdad2 = document.querySelector("#edad2");
 
-const nombreExiste = (()=> {
-
-    const nombre = prompt('Nombre: ')
-
-    const existe = baseDatos.map((person) => person.nombre )
-
-    console.log(existe);
-
-    existe.filter(p => {
-
-          if (p) {
-            console.log(`El nombre ${nombre} Existe!!`);
-            return
-          } else {
-            console.log(`El nombre ${nombre} NO existe`);
-            return
-          }
+inputEdad1.addEventListener('blur', validar)
+inputEdad2.addEventListener('blur', validar)
 
 
-    })
+function validar(e) {
   
+  if (e.target.value === '') {
+    
 
-})
 
-nombreExiste()
 
+  }
+
+}
+
+
+function dataPerson() {
+
+  const existeNombre = baseDatos.map((person) => person.nombre);
+  const existeEdad = baseDatos.map((person) => person.edad);
+
+}
+
+dataPerson() */
+
+
+
+
+
+
+
+for (let data of baseDatos) {
+  //Create Card
+  let card = document.createElement("div");
+  //Card should have category and should stay hidden initially
+  card.classList.add("card", data.category, "hide");
+  //image div
+  let imgContainer = document.createElement("div");
+  imgContainer.classList.add("image-container");
+  //img tag
+  let image = document.createElement("img");
+  image.setAttribute("src", data.image);
+  imgContainer.appendChild(image);
+  card.appendChild(imgContainer);
+  //container
+  let container = document.createElement("div");
+  container.classList.add("container");
+  //studient name
+  let name = document.createElement("h5");
+  name.classList.add("nombre-estudiante");
+  name.innerText = data.nombre.toUpperCase();
+  container.appendChild(name);
+  //genero
+  let genero = document.createElement("h6");
+  genero.innerText = data.genero;
+  container.appendChild(genero);
+
+  //Hobby
+  let hobby = document.createElement('h5')
+  hobby.innerText = data.hobbies;
+  container.appendChild(hobby)
+
+  //Comida favorita
+  let comida = document.createElement('h5')
+  comida.innerText = data.camidaFavorita;
+  container.appendChild(comida)
+
+
+  //age
+  const edad = document.createElement('h5')
+  const edadTexto = document.createElement('P')
+  edadTexto.textContent = 'Edad'
+  edad.innerText = data.edad
+  edad.classList.add("color-text");
+  
+  container.appendChild(edad)
+
+  card.appendChild(container);
+  document.getElementById("products").appendChild(card);
+}
+
+//parameter passed from button (Parameter same as category)
+function filterProduct(value) {
+  //Button class code
+  let buttons = document.querySelectorAll(".button-value");
+  buttons.forEach((button) => {
+    //check if value equals innerText
+    if (value.toUpperCase() == button.innerText.toUpperCase()) {
+      button.classList.add("active");
+    } else {
+      button.classList.remove("active");
+    }
+  });
+
+  //select all cards
+  let elements = document.querySelectorAll(".card");
+  //loop through all cards
+  elements.forEach((element) => {
+    //display all cards on 'all' button click
+    if (value == "all") {
+      element.classList.remove("hide");
+    } else {
+      //Check if element contains category class
+      if (element.classList.contains(value)) {
+        //display element based on category
+        element.classList.remove("hide");
+      } else {
+        //hide other elements
+        element.classList.add("hide");
+      }
+    }
+  });
+}
+
+//Search button click
+document.getElementById("search").addEventListener("click", () => {
+  //initializations
+  let searchInput = document.getElementById("search-input").value;
+  let elements = document.querySelectorAll(".nombre-estudiante");
+  let cards = document.querySelectorAll(".card");
+
+  //loop through all elements
+  elements.forEach((element, index) => {
+    //check if text includes the search value
+    if (element.innerText.includes(searchInput.toUpperCase())) {
+      //display matching card
+      cards[index].classList.remove("hide");
+    } else {
+      //hide others
+      cards[index].classList.add("hide");
+    }
+  });
+});
+
+//Initially display all products
+window.onload = () => {
+  filterProduct("all");
+};
 
 
 
